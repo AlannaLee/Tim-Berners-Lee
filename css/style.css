@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.banner
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #222222;
+  display: flex;
+  justify-content: right;
+  padding-right: 4rem;
+  align-items: center;
+  
+}
+.banner img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+}
+.content
+{
+  position: relative;
+  max-width: 750px;
+  text-align: left;
+}
+.content h2
+{
+  color: #fff;
+  font-size: 60px;
+  
+}
+.content p
+{
+  color: #fff;
+  font-size: 18px;
+  max-width: 500px;
+  padding-top: 2rem;
+ 
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+header .logo
+{
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header .toggle
+{
+  position: relative;
+  width: 36px;
+  height: 28px;
+  background: url(toggle.png);
+  background-size: cover;
+  cursor: pointer;
+}
+.life
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.life .contentBx
+{
+  background: #215858;
+  width: 50%;
+  padding: 100px;
+  background-image: linear-gradient(#161f1f,#215858);
+  
+}
+h2.heading
+{
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  padding-bottom: 3%;
+}
+p.text
+{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
+}
+
+.text1
+{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+
+  
+}
+.life .imgBx
+{
+  background: url(https://webfoundation.org/docs/2009/10/berners-lee.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.the-web
+{
+  background: #131a24;
+  padding: 8rem 10rem 8rem 10rem;
+  text-align: center;
+  max-width: 100%; 
+  padding: 13rem, 0rem;
+  
+}
+.the-web p {
+  max-width: 900px;
+  margin:auto;
+
+}
+
+.the-web .container
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  
+
+}
+
+
+.the-web .container .hoverbox
+{
+  position: relative;
+  background: #215858;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  
+}
+.hoverbox:hover {
+  font-size: 0px;
+}
+
+.hoverbox p  {
+  color: #022829;
+  font-weight: 1000;
+}
+
+
+.hoverbox:hover::after{
+content: attr(data-hover);
+letter-spacing: 2.5px;
+font-size: 28px;
+line-height: 28px; 
+font-weight: 200px;
+text-align: center;
+color: white;
+padding: 4rem;
+opacity: 60%;
+}
+
+.the-web blockquote
+{
+padding-top: 4rem;
+color: #0c787c;
+padding-left: 150px;
+padding-right: 150px;
+font-size: larger;
+width: 100%; 
+}
+
+
+.communication
+{
+  background: #163b3b;
+  padding: 100px;
+  text-align: center;
+  padding: 70px 250px;
+
+}
+
+.communication p {
+max-width: 900px;
+margin:auto;
+width:90%;
+}
+
+.communication .imgBx
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.communication .imgBx img
+{
+  max-width: 200px;
+  margin: 20px;
+  opacity: 0.25;
+  cursor: pointer;
+}
+.communication .imgBx img:hover
+{
+  opacity: 1;
+}
+
+
+.good
+{
+  position: relative;
+  padding: 100px;
+  background: #12222d;
+  text-align: center;
+}
+
+
+.good .container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+ 
+}
+.good .container .contentBx
+{
+  background: rgb(255, 255, 255);
+  padding:23px 125px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border-radius: 50px;
+  margin:auto;
+}
+.good .container .contentBx p
+{
+  font-style: normal;
+  text-align: center;
+  line-height: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding: 2.7rem;
+  color:#285e5e;
+}
+
+.conclusion
+{
+  padding: 100px;
+  background: #162c3b;
+  text-align: center;
+
+}
+
+.conclusion p {
+  max-width: 900px;
+  margin:auto;
+  width: 80%; }
+
+.imgBx2
+{
+  background: url(bg2.jpg);
+  background-size: cover;
+  width: 50%;
+}
+.redbg
+{
+  background: url(red.jpg) !important;
+  background-size: cover;
+}
+.form .inputBx
+{
+  margin-bottom: 40px;
+}
+.form .inputBx input
+{
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.form .inputBx input::placeholder
+{
+  color: #fff;
+}
+
+
+.form .inputBx textarea
+{
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  min-height: 150px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.form .inputBx textarea::placeholder
+{
+  color: #fff;
+}
+.form .inputBx input[type="submit"]
+{
+  width: 150px;
+  background: #fff;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #111;
+  cursor: pointer;
+  font-weight: 400;
+}
+.footer
+{
+  background: #162c3b;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul li
+{
+  list-style: none;
+}
+.footer ul li a
+{
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer ul li a img
+{
+  filter: invert(1);
+  max-width: 20px;
+}
+
+@media (max-width: 991px)
+{
+
+  h2.heading
+  {
+    font-size: 26px;
+  }
+  p.text
+  {
+    font-size: 15px;
+  }
+  header
+  {
+    padding: 20px 50px;
+  }
+  .banner
+  {
+    padding: 50px;
+  }
+  .banner h2
+  {
+    font-size: 36px;
+  }
+  .banner p
+  {
+    font-size: 16px;
+  }
+  .life
+  {
+    flex-direction: column;
+  }
+  .life .contentBx,
+  .life.imgBx
+  {
+    padding: 50px;
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+    border: #fff;
+    image-orientation: flip;
+  }
+  .services
+  {
+    padding: 50px;
+  }
+  .services .container
+  {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .services .container .serviceBx
+  {
+    margin: 20px;
+  }
+  .services .container .serviceBx
+  {
+    position: relative;
+    background: #fff;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .technology
+  {
+    padding: 50px;
+    padding-top: 300px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .technology .imgBx img
+  {
+    margin-top: 40px;
+    max-width: 250px;
+  }
+  .client
+  {
+    padding: 50px;
+  }
+  .client .imgBx
+  {
+    justify-content: center;
+    
+  }
+  .good
+  {
+    padding: 50px; 
+  }
+  .good .container .contentBx
+  {
+    padding: 60px 40px;
+    max-width: 550px;
+    margin-bottom: 140px;
+  }
+  .good .container .contentBx:last-child
+  {
+    margin-bottom: 0;
+  }
+  .contact
+  {
+    padding: 500px;
+  }
+  .footer
+  {
+    padding: 20px 50px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer ul
+  {
+    margin-bottom: 20px;
+  }
+
+}
+
+--  styling links--
+a {
+color: #333;
+text-decoration: none;
+}
+
+
+li {
+    color: #333;
+}
+
+--Styling nav/--
+
+nav {
+   position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: #000000;
+    padding: 1em 0;
+    font-size: 0.85em;
+    opacity: 50%;
+    width: 100%
+    
+}
+
+  nav ul {
+    padding: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+ }
+
+
+  nav ul li {
+    display: inline-block;
+    margin: 20px;
+    background: none;
+   position: relative;
+   
+}
+
+  nav a:link {
+    color:#333;
+}
+
+  nav a:visited {
+    color:#333;
+}
+
+  nav a:hover {
+    border-bottom: none;
+    color: #367e7e;
+    transition: all 0.3s ease-in-out; 
+  } 
+
+  nav a::before {
+    content:'';
+    display: block;
+    height: 3px ;
+    width: 0%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    transition:all ease-in-out 750ms;
+  }
+
+  nav a:hover::before {
+    width: 100%;
+  
+  }
+ 
+  a:link {
+    color: #2b8585;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #8f091d;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #2b8585;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
+
+.revolution
+{
+  margin:auto;
+  text-align: center;
+}
+
+.revolution p {
+  max-width:900px;
+  text-align: center;
+  position:relative;
+  width:90%;
+  margin:auto;
+
+}
+.revolution .contentBx
+{
+  background: #215858;
+
+  background-image: linear-gradient(#131a24,#163b3b);
+  
+}
+.revolution h2.heading
+{
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  padding-bottom: 3%;
+  text-align: center ;
+}
+
+ .img img{
+  border-radius: 50%;
+  margin-top:3rem;
+}
+
+p.text
+{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
+}
+
+.text1
+{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  color:transparent;
+}
+
+.back-to-top img:hover{
+  filter: invert(50%)
+}
+
+html{
+  scroll-behavior: smooth;
+} 
+
+.sources
+{
+  position: relative;
+  padding: 100px;
+  background: #12222d;
+  text-align: center;
+}
+
+
+.sources .container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+ 
+}
+.sources .container .contentBx
+{
+  background: rgb(255, 255, 255);
+  padding:23px 125px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border-radius: 50px;
+  margin:auto;
+}
+.sources .container .contentBx p
+{
+  font-style: normal;
+  text-align: center;
+  line-height: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding: 2.7rem;
+  color:#285e5e;
+}
